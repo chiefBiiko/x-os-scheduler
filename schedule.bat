@@ -1,0 +1,1 @@
+schtasks.exe /create /tn "%1" /tr "%2" /sc %3 /st "%4"
