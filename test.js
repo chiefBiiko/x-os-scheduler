@@ -7,7 +7,7 @@ tape('counts correct', function (t) {
     if (err) t.end(err)
 
     t.is(data.files, 8, 'should count 8 files')
-    t.is(data.dirs, 1, 'should count 1 dir') // node_modules
+    t.is(data.dirs, 2, 'should count 2 dirs')
 
     t.end()
   })

@@ -10,7 +10,7 @@ Count the number of top-level entries (dirs and files) within a directory.
 
 ## Get it
 
-``` js
+```
 npm install --save count-top-entries
 ```
 
